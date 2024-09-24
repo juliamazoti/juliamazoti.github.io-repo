@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(#191212,rgb(79, 79, 79));
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: black;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu_item{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.conteudo_principal {
+    margin-top: 80px;
+    background-image: linear-gradient(#191212,rgb(79, 79, 79));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+img {
+    height: 650px;
+    padding-right: 0px;
+}
+
+
+.conteudo_principal_escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    line-height: 25px;
+}
+
+.conteudo_principal_escrito_titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    color: #ffafaf;
+}
+
+.conteudo_principal_escrito_subtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 22px;
+    color: white;
+}
+
+.conteudo_principal_escrito_subtitulo2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffafaf;
+    line-height: 4px;
+}
+
+.conteudo_principal_escrito_botao:hover {
+    background-color: #b67e7e;
+    text-decoration: none;
+}
+
+.menu_item:hover {
+    color: #ffafaf;
+}
+
+.cor_button_a
+{
+    color:black;
+}
+
+.conteudo_principal_escrito_botao {
+    text-decoration: none;
+    background-color: #ffafaf;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #1f1f1f;
+    cursor:pointer
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffafaf; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b67e7e; 
+  }

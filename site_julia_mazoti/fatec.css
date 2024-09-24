@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.conteudo_principal_fatec{
+    padding: 50px 0px;
+    background-color: #F7F2ED;
+    display:list-item;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.img_fatec_css {
+    height: 55px;
+    margin: 80px 0px 0px 80px;
+}
+
+
+.conteudo_principal_escrito_fatec {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 25px;
+}
+
+.conteudo_principal_escrito_titulo_fatec {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #111111;
+    padding:50px 80px 0px 80px;
+}
+
+.conteudo_principal_escrito_subtitulo_fatec {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    color: #111111;
+    padding:0px 80px 80px 80px;
+}
+
+.conteudo_secundario_fatec
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e7e7e7;
+}
+
+.conteudo_secundario_escrito_fatec {
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+    line-height: 25px;
+}
+
+.conteudo_secundario_escrito_titulo_fatec {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #111111;
+    padding:80px 80px 0px 80px;
+}
+
+.conteudo_secundario_escrito_subtitulo_fatec {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    color: #111111;
+    padding:0px 80px 80px 80px;
+}
+
+.mapa_fatec {
+    padding: 10px 0px 90px 400px;
+    filter: invert(90%);
+}
+
+.footer_img_fatec{
+    width: 40px;
+    height: 40px;
+}
+
+.footer_fatec{
+    display: flex;
+    justify-content: center;
+    background-color: #f7f2ed;
+}
+
+.footer_a_fatec{
+    margin: 20px 0px 15px 0px;
+    text-align: center;
+}

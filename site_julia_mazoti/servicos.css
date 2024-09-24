@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.fundo_servicos {
+    padding: 60px 0px;
+    background-image: linear-gradient(#191212,rgb(79, 79, 79));
+}
+
+.conteudo_principal_servicos{
+    display:list-item;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 0px 20px 0px;
+}
+
+.conteudo_principal_escrito_servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.conteudo_principal_escrito_titulo_servicos {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffafaf;
+    padding:80px 80px 0px 80px;
+    text-align: center;
+}
+
+.conteudo_principal_escrito_subtitulo_servicos {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    color: #ffffff;
+    padding:0px 80px 30px 80px;
+}
+
+.apresentacoes_servicos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.ap_servicos{
+    height: 380px;
+    border-radius: 20px;
+    margin: 25px;
+    border: 3px solid #ffafaf;
+    transition: all 1.1s;
+}
+
+.ap_servicos:hover{
+    transform: scale(0.9);     
+    transition: all 1.1s;
+}
+
+.conf_servicos{
+    margin-top: 2px;
+    text-align: center;  
+    margin-top: 15px;
+    font-family:'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight:500;
+}
+
+.notinha_servicos {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffafaf;
+    font-weight: 300;
+}
+
+.footer_img_servicos
+{
+    width: 40px;
+    height: 40px;
+}
+
+.footer_servicos
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer_a_servicos
+{
+    margin: 15px;
+    text-align: center;
+}
+
+.trabalhos_servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
